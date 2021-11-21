@@ -6,16 +6,18 @@ body {
     text-align: center;
 }
 
-h1,
-h2 {
+h1 {
     color: darkred;
+    font-size: 40pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tagline {
+    color: darkolivegreen;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
 
-h3, 
-p,
-li {
-    color: green;
-}
 
 img {
     width: 100%;
@@ -44,7 +46,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: darkolivegreen;
     margin-right: 25px;
 }
 
@@ -59,28 +61,157 @@ nav a:hover {
 }
 
 #banner img {
-    width: 60%;
+    width: auto;
+    height: auto;
+}
+#restaurant {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+#restaurant img{
+    width: 100%;
+    height: auto;
+}
+#about {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+#about img {
+    width: 100%;
     height: auto;
 }
 
 .service {
     display: inline-block;
-    background-color: white;
-    border: 5px solid green;
-    border-radius: 5px;
     color: darkred;
-    font-size: 2em;
-    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    border: 5px solid darkolivegreen;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size: 15pt;
+    padding: 10px;
     margin: 10px;
 }
-
+.about {
+    color: darkred;
+    font-size: 40pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.description {
+    color: darkolivegreen;
+    font-size: 9pt;
+    font-family: cursive;
+    font-style: normal;
+}
+.locations {
+    color: darkred;
+    font-size: 15pt;
+    text-align: center;
+}
+.places {
+    list-style-type: none;
+    color: darkolivegreen;
+    font-size: 10pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hours {
+    color: darkred;
+    font-size: 18pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact {
+    color: darkred;
+    font-size: 18pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.weekdays {
+    color: darkolivegreen;
+    font-size: 15pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weekends {
+    color: darkolivegreen;
+    font-size: 15pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.phone {
+    color: darkolivegreen;
+    font-size: 15pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email {
+    color: darkolivegreen;
+    font-size: 15pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 table {
-    border: 3px solid black;
+    border: 3px solid darkolivegreen;
     width: 100%;
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid darkolivegreen;
     padding: 5px;
+}
+.menu {
+    color: darkred;
+    font-size: 40pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.appetizers {
+    color: darkred;
+    font-size: 12pt;
+    font-family: cursive;
+}
+.lunch {
+    color: darkred;
+    font-size: 12pt;
+    font-family: cursive;
+}
+.dinner {
+    color: darkred;
+    font-size: 12pt;
+    font-family: cursive;
+}
+.dessert {
+    color: darkred;
+    font-size: 12pt;
+    font-family: cursive;
+}
+.beverages {
+    color: darkred;
+    font-size: 12pt;
+    font-family: cursive;
+}
+.side {
+    color: darkred;
+    font-size: 12pt;
+    font-family: cursive;
+}
+/* Bonus */
+.hightlight {
+    color: orangered;
+}
+#holiday {
+    width: 100%;
+    padding: 20px;
+    background-color: yellow;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: burlywood;
+}   
+footer p {
+    color: darkgreen;
+    font-size: 15pt;
 }
